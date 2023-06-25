@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+
+html,
+body {
+  /* height: 100%; */
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#root {
+  font-family: "Sriracha", cursive;
+  height: 100%;
+  background-color: #ffc6ff;
+}
+
+.emojiApp {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-title {
+  height: "50%";
+  background-color: #fdffb6;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+.app-body {
+  height: "50%";
+  background-color: #ffc6ff;
+}
+
+#title {
+  color: #ffc6ff;
+  font-size: 5rem;
+}
+
+.input-box {
+  margin-top: 7rem;
+  width: 40%;
+  height: 5rem;
+  font-size: 2.5rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  background-color: #ffdbf1;
+  font-family: "Sriracha", cursive;
+}
+
+#result {
+  margin: 3rem auto;
+  align-content: center;
+  color: yellow;
+  font-size: 3rem;
+}
